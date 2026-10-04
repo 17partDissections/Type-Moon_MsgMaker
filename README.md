@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://17partDissections.github.io/tm-msg/">
+  <a target="_blank" href="https://17partDissections.github.io/tm-msg/">
     <img src="https://img.shields.io/badge/VISIT-ffffff?style=for-the-badge&logo=github&logoColor=202020">
   </a>
 </p>
