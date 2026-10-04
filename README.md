@@ -6,6 +6,12 @@
   <br>
 </h1>
 
+<p align="center">
+  <a href="https://17partDissections.github.io/tm-msg/">
+    <img src="https://img.shields.io/badge/VISIT-ffffff?style=for-the-badge&logo=github&logoColor=202020">
+  </a>
+</p>
+
 ## [EN] What is this?
 
 **Type-Moon Daily Message Maker** is a simple tool for creating **Startup Messages** from *Kagetsu Tohya*.
