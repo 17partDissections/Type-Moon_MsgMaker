@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+    <base href="/Type-Moon_MsgMaker/">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>tm-msg</title>
+
+    <meta name="description" content="Type-Moon Daily Message Maker">
+    <meta name="keywords" content="Type-Moon, Type-Moon msg, Type-Moon Daily Message, Type-Moon Daily Message Maker, Type Moon, Tsukihime, Kagetsu Tohya">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="tm-msg">
+    <meta property="og:description" content="Type-Moon Daily Message Maker">
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=1">
+
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+    <script src="assets/script.js" defer></script>
+	<script src="assets/export.js" defer></script>
+</head>
+
+<body>
+    <div class="title"><h3>Type-Moon daily message Maker</h3><p>by Andrew Q17pD</p></div>
+    <div class="controls">
+        <div class="control">
+            <label for="bg-select">Background</label>
+            <select id="bg-select">
+                <option value="assets/bg/01.png">01</option> <option value="assets/bg/02.png">02</option>
+                <option value="assets/bg/03.png">03</option> <option value="assets/bg/04.png">04</option>
+                <option value="assets/bg/05.png">05</option> <option value="assets/bg/06.png" selected>06</option>
+                <option value="assets/bg/07.png">07</option> <option value="assets/bg/08.png">08</option>
+            </select>
+        </div>
+        <div class="control">
+            <label for="ch-select">Character</label>
+            <select id="ch-select">
+                <option value="assets/ch/arcueid.png" data-headline-align="left">Arcueid | LEFT</option>
+                <option value="assets/ch/ciel.png" data-headline-align="left">Ciel | LEFT</option>
+                <option value="assets/ch/len.png" data-headline-align="right">Len | RIGHT</option>
+                <option value="assets/ch/akiha.png" data-headline-align="left">Akiha | LEFT</option>
+                <option value="assets/ch/kohaku.png" data-headline-align="right">Kohaku | RIGHT</option>
+                <option value="assets/ch/hisui.png" data-headline-align="right">Hisui | RIGHT</option>
+                <option value="assets/ch/maids.png" data-headline-align="center">Maids | CENTER</option>
+                <option value="assets/ch/satsuki.png" data-headline-align="left">Satsuki | LEFT</option>
+                <option value="assets/ch/hanei.png" data-headline-align="left">Hanei | LEFT</option>
+                <option value="assets/ch/neco_arc1.png" data-headline-align="right">Neco Arc 1 | RIGHT</option>
+                <option value="assets/ch/neco_arc2.png" data-headline-align="left">Neco Arc 2 | LEFT</option>
+                <option value="assets/ch/kinoko.png" data-headline-align="left">Kinoko | LEFT</option>
+            </select>
+        </div>
+        <div class="control">
+            <label for="size-select">Message Size</label>
+            <select id="size-select">
+                <option value="320x240">320x240</option> <option value="640x480" selected>640x480</option>
+                <option value="960x720">960x720</option> <!--<option value="1920x1440">1920x1440</option>-->
+            </select>
+        </div>
+    </div>
+<div class="text-controls">
+    <div class="text-control">
+        <label for="headline-input">Headline</label>
+        <input type="text" id="headline-input" value="TYPE-MOON daily message">
+    </div>
+    <div class="main-text-row">
+        <div class="text-control">
+            <label for="main-text-input">Main Text</label>
+            <textarea id="main-text-input" rows="6">Main Text</textarea>
+        </div>
+        <button id="export-button" type="button">Download</button>
+    </div>
+</div>
+    </div>
+    <div class="preview-wrapper">
+        <div class="preview" id="preview">
+            <img id="preview-bg" class="preview-bg" alt="Background">
+            <img id="preview-ch" class="preview-ch" alt="Character">
+            <div id="headline" class="headline">TYPE-MOON daily message</div>
+            <div id="main-text" class="main-text">Main Text</div>
+        </div>
+    </div>
+</body>
+</html>
