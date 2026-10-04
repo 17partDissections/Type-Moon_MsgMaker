@@ -12,8 +12,8 @@
 Yep, i was so lazy that day so i made this.
 
 <p align="center">
-  <img src="assets/readme/showcase.png">
-  <img src="assets/readme/tm-msg-640x480.png">
+  <img src="assets/readme/showcase.png" style="width: 325px;">
+  <img src="assets/readme/tm-msg-640x480.png" style="width: 320px; height: 240px;">
 </p>
 
 ## [RU] Что это такое?
@@ -22,6 +22,6 @@ Yep, i was so lazy that day so i made this.
 Да, мне было настолько скучно в тот день, что я сделал это.
 
 <p align="center">
-  <img src="assets/readme/showcase.png">
-  <img src="assets/readme/tm-msg-640x480.png">
+  <img src="assets/readme/showcase.png" style="width: 325px;">
+  <img src="assets/readme/tm-msg-640x480.png" style="width: 320px; height: 240px;">
 </p>
